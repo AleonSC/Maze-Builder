@@ -704,7 +704,7 @@
 
   global.MazeKit = {
     N, E, S, W, DC, DR,
-    Maze, makeRng, randomSeed,
+    Maze, makeRng, randomSeed, bytesToB64, b64ToBytes,
     makeContext, prepare, connectAll, stitchRegion, braid, placeEnds,
     ALGORITHMS, SHAPES, applyShape, fixVoidEdges,
     bfs, solve, stats, degree,
